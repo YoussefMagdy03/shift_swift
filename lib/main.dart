@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:shift_swift/profile/Profile%20All/profile_home.dart';
-import 'package:shift_swift/splash/one_splash.dart';
+
+import 'package:shiftswift/profile/Profile%20All/profile_home.dart';
+import 'package:shiftswift/splash/one_splash.dart';
+
+import 'package:shiftswift/core/app_colors.dart';
+import 'package:shiftswift/splash/one_splash.dart';
 
 void main() {
   runApp(const Shiftswift());
@@ -9,11 +13,15 @@ void main() {
 class Shiftswift extends StatelessWidget {
   const Shiftswift({super.key});
 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:ProfileHome(),
+      home: OneSolash(),
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.blue),
+      ),
     );
   }
 }
