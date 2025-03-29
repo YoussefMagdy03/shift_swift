@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:shift_swift/login/company/register_company.dart';
-import 'package:shift_swift/login/helper/TextFiled.dart';
-import 'package:shift_swift/login/user/register_user.dart';
+import 'package:shiftswift/login/company/register_company.dart';
+import 'package:shiftswift/login/helper/TextFiled.dart';
+import 'package:shiftswift/login/user/register_user.dart';
 
 class LoginHome extends StatelessWidget {
   

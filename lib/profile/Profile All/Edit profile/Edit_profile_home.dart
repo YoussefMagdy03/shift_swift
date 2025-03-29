@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shift_swift/profile/Profile%20All/Edit%20profile/Personal.dart';
+import 'package:shiftswift/profile/Profile%20All/Edit%20profile/Personal.dart';
 
 class  EditProfileScreen extends StatelessWidget {
   @override

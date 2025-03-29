@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shift_swift/login/login_home.dart';
+import 'package:shiftswift/login/login_home.dart';
 
 class DeviceManagementPage extends StatelessWidget {
   @override

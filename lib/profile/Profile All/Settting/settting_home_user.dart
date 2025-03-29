@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:shift_swift/profile/Profile%20All/Settting/Device_managment.dart';
-import 'package:shift_swift/profile/Profile%20All/Settting/chang_Email.dart';
-import 'package:shift_swift/profile/Profile%20All/Settting/delet_account.dart';
-import 'package:shift_swift/profile/Profile%20All/Settting/manage_2Fa.dart';
+import 'package:shiftswift/profile/Profile%20All/Settting/Device_managment.dart';
+import 'package:shiftswift/profile/Profile%20All/Settting/chang_Email.dart';
+import 'package:shiftswift/profile/Profile%20All/Settting/delet_account.dart';
+import 'package:shiftswift/profile/Profile%20All/Settting/manage_2Fa.dart';
 
 class SettingsScreen extends StatelessWidget {
   @override

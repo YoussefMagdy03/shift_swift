@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:shiftswift/home/presentation/view/widgets/home_view_body.dart';
 
-import 'package:shiftswift/profile/Profile%20All/profile_home.dart';
-import 'package:shiftswift/splash/one_splash.dart';
+
 
 import 'package:shiftswift/core/app_colors.dart';
-import 'package:shiftswift/splash/one_splash.dart';
+
 
 void main() {
   runApp(const Shiftswift());
@@ -18,7 +18,7 @@ class Shiftswift extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: OneSolash(),
+      home: HomeViewBody(),
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.blue),
       ),

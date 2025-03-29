@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:shift_swift/login/helper/TextFiled.dart';
-import 'package:shift_swift/login/login_home.dart';
+import 'package:shiftswift/login/helper/TextFiled.dart';
+import 'package:shiftswift/login/login_home.dart';
 
 class RegisterUser extends StatelessWidget {
   final nameController = TextEditingController();

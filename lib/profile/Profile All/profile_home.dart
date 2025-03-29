@@ -1,10 +1,11 @@
 
 import 'package:flutter/material.dart';
-import 'package:shift_swift/login/login_home.dart';
-import 'package:shift_swift/profile/Profile%20All/AboutAS/about_as.dart';
-import 'package:shift_swift/profile/Profile%20All/Edit%20profile/Edit_profile_home.dart';
-import 'package:shift_swift/profile/Profile%20All/HelpCenter/help_center.dart';
-import 'package:shift_swift/profile/Profile%20All/Settting/settting_home_user.dart';
+import 'package:shiftswift/login/login_home.dart';
+import 'package:shiftswift/profile/Profile%20All/AboutAS/about_as.dart';
+
+import 'package:shiftswift/profile/Profile%20All/Edit%20profile/Edit_profile_home.dart';
+import 'package:shiftswift/profile/Profile%20All/HelpCenter/help_center.dart';
+import 'package:shiftswift/profile/Profile%20All/Settting/settting_home_user.dart';
 
 class ProfileHome extends StatelessWidget {
   const ProfileHome({super.key});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shift_swift/profile/Profile All/Settting/manage2.dart' ;
+import 'package:shiftswift/profile/Profile All/Settting/manage2.dart' ;
 
 
 
