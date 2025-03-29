@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:shift_swift/splash/three_splash.dart';
+import 'package:homeview/splash/three_splash.dart';
 
 
 class TwoSplash extends StatelessWidget {

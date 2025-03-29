@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:shift_swift/splash/two_splash.dart';
+import 'package:homeview/splash/two_splash.dart';
 
 
 

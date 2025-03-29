@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:homeview/bottom_navigation_bar.dart';
 
 
 class ThreeSplah extends StatelessWidget {
@@ -74,12 +75,13 @@ class ThreeSplah extends StatelessWidget {
                 SizedBox(
                   height: 40,
                 ),
-             GestureDetector(
-      onTap: () {
-//  Navigator.push(context, MaterialPageRoute(builder: (context) =>
-//               Defult()
-//               ));
-      },
+            GestureDetector(
+  onTap: () {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => CustomBottomNavigationBar()),
+    );
+  },
       child: Container(
         width: 62,
         height: 62,
