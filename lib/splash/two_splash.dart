@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:shift_swift/login/login_home.dart';
 import 'package:shift_swift/splash/three_splash.dart';
 
 
@@ -17,8 +18,8 @@ class TwoSplash extends StatelessWidget {
         automaticallyImplyLeading: false,
         title: GestureDetector(
             onTap: () {
-              // Navigator.push(context,
-              //     MaterialPageRoute(builder: (context) => LoginScreen()));
+               Navigator.push(context,
+                   MaterialPageRoute(builder: (context) => LoginHome()));
             },
             child: Text(
               "Skip",

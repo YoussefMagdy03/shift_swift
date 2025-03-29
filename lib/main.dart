@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shift_swift/profile/Profile%20All/profile_home.dart';
 import 'package:shift_swift/splash/one_splash.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class Shiftswift extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:OneSolash(),
+      home:ProfileHome(),
     );
   }
 }

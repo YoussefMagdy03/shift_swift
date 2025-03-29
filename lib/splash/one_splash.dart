@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:shift_swift/login/login_home.dart';
 import 'package:shift_swift/splash/two_splash.dart';
 
 
@@ -17,7 +18,8 @@ class OneSolash extends StatelessWidget {
         backgroundColor: Color.fromARGB(255, 15, 104, 177),
         title: GestureDetector(
             onTap: () {
-             
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => LoginHome()));
             },
             child: Text(
               "Skip",
