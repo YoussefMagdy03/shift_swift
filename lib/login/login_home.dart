@@ -21,7 +21,7 @@ class _LoginHomeState extends State<LoginHome> {
   final fromKey = GlobalKey<FormState>();
   String? _validateAccountType(String? value) {
     if (accountType.isEmpty) {
-      return 'Please select an account type'; // Error message if no radio is selected
+      return 'Please select an account type'; 
     }
     return null;
   }
